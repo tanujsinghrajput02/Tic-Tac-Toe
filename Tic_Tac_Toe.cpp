@@ -1,4 +1,4 @@
-  #include <iostream>
+#include <iostream>
 using namespace std;
 
 char board[3][3]; // Game board
@@ -93,7 +93,7 @@ void playGame() {
         printBoard();
 
         if (isWinner()) {
-            cout << "🎉 Player " << current_player << " wins! 🎉\n";
+            cout << " Player " << current_player << " wins! \n";
             break;
         } else if (isDraw()) {
             cout << "It's a draw!\n";
